@@ -1,4 +1,3 @@
-## 안녕 세상사람들 👋
 ![header](https://capsule-render.vercel.app/api?type=venom&&color=timeAuto&height=300&section=header&text=안녕%20세상사람들&fontSize=90)
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
