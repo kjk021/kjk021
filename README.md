@@ -1,4 +1,4 @@
-## Hi there 👋
+## 안녕 세상사람들 👋
 
 <!--
 **kjk021/kjk021** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
