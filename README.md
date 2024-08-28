@@ -29,16 +29,16 @@
 ![Samsung](https://img.shields.io/badge/Samsung-%231428A0.svg?style=for-the-badge&logo=samsung&logoColor=white)
 ![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
 
-#JSP
+# JSP
 
 ---
-#C#
+# C#
 
 ---
-#SPRING
+# SPRING
 
 ---
-#
+# Python
 
 <!--
 **kjk021/kjk021** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
