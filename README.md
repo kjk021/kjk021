@@ -30,15 +30,19 @@
 ![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
 
 # JSP
+중고거래 홈페이지[Databean/MVC]
 
 ---
 # C#
-
+지하철 api시각화
+주차관리프로그램
+제조데이터 시각화[MeltTank]
 ---
 # SPRING
-
+커뮤니티사이트[Spring boot]
 ---
 # Python
+공공api를 활용한 챗봇[kakao]
 
 <!--
 **kjk021/kjk021** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
