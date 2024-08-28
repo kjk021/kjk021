@@ -33,14 +33,16 @@
 중고거래 홈페이지[Databean/MVC]
 
 ---
-#(C#)
+# Csharp
 
 지하철 api시각화
 주차관리프로그램
 제조데이터 시각화[MeltTank]
+
 ---
 # SPRING
 커뮤니티사이트[Spring boot]
+
 ---
 # Python
 공공api를 활용한 챗봇[kakao]
