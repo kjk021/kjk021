@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html layout:decorate="~{layout}">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div layout:fragment="content"  class="container my-3">
+<!--https://getbootstrap.kr/docs/5.1/content/tables/ 테이블코드는이곳에서  -->
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+         <th><a th:href="@{/q/list}">자유게시판</a></th>
+            <th><a th:href="@{/q/list}">질문/답변게시판</a></th>
+            <th><a th:href="@{/q/list}">특가정보공유</a></th>
+            <th><a th:href="@{/q/list}">업무문의</a></th>
+        </tr>
+    </thead>    
+</table>
+<div style="border:2px solid black; background-color:gray;">
+<table class="testpage" >
+<tr>
+<h1>테스트용 기본페이지입니다</h1>
+<h1>테스트용 기본페이지입니다</h1>
+<h1>테스트용 기본페이지입니다</h1>
+<h1>테스트용 기본페이지입니다</h1>
+<h1>테스트용 기본페이지입니다</h1>
+<h1>테스트용 기본페이지입니다</h1>
+</tr>
+</table>
+</div>
+</body>
+</html>
