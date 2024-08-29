@@ -1,0 +1,71 @@
+/* style.css */
+
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* 페이지 내부 컨테이너 스타일 */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 헤더 스타일 */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+/* 입력 폼 스타일 */
+form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+form table td {
+    padding: 10px;
+}
+
+form table td[bgcolor] {
+    background-color: #f0f0f0;
+}
+
+form table input[type="text"],
+form table input[type="password"],
+form table textarea,
+form table select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form table input[type="submit"],
+form table input[type="reset"],
+form table input[type="button"] {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form table input[type="submit"]:hover,
+form table input[type="reset"]:hover,
+form table input[type="button"]:hover {
+    background-color: #45a049;
+}

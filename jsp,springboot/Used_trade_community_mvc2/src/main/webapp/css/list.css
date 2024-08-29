@@ -1,0 +1,77 @@
+/* list.css */
+
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* 게시판 테이블 스타일 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* 테이블 내용 정렬 */
+table td, table th {
+    text-align: left;
+}
+
+/* 게시글 제목 스타일 */
+table td a {
+    color: #333;
+    text-decoration: none;
+}
+
+table td a:hover {
+    color: #666;
+}
+
+/* 페이지 링크 스타일 */
+a {
+    text-decoration: none;
+    color: #4CAF50;
+    padding: 4px 8px;
+    border: 1px solid #4CAF50;
+    border-radius: 3px;
+}
+
+a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* 검색 폼 스타일 */
+.type-box, .inputId, .submitBtn {
+    padding: 6px;
+    margin-right: 10px;
+}
+
+.submitBtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background-color: #45a049;
+}
