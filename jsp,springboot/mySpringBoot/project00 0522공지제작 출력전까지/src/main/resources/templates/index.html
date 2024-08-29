@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html layout:decorate="~{layout}">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div layout:fragment="content"  class="container my-3">
+<!--https://getbootstrap.kr/docs/5.1/content/tables/ 테이블코드는이곳에서  -->
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+         <th><a th:href="@{/q/list}">자유게시판</a></th>
+            <th><a th:href="@{/q/list}">질문/답변게시판</a></th>
+            <th><a th:href="@{/q/list}">특가정보공유</a></th>
+            <th><a th:href="@{/q/list}">업무문의</a></th>
+        </tr>
+    </thead>    
+</table>
+<div style="border:2px solid black; background-color:yellow;">
+<table class="testpage" >
+<tr>
+<h1>[웹발신]너는 나를 존중하여아한다</h1>
+<h2>나는발롱도르5개와수많은개인트로피를들어올렸으며</h2>
+<h2>2016유로에서포르투갈을이끌고우승을차지했고</h2>
+<h2> 동시에 A매치 역대 최다 득점자이다.[더보기]</h2>
+<h2>-크리스티아노 로날도-</h2>
+</tr>
+</table>
+</div>
+</body>
+</html>

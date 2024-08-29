@@ -31,7 +31,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @Controller
 public class AnswerController {
-	 private final QuestionService questionService;
+	private final QuestionService questionService;
 	 private final AnswerService answerService;
 	 private final UserService userService;
 
@@ -92,19 +92,15 @@ public class AnswerController {
 	    @GetMapping("/vote/{id}")
 	    public String answerVote(Principal principal, @PathVariable("id") Integer id) {
 		  String username = principal.getName();
-		  if (!"admin".equals(username)) {
-		  Answer answer = this.answerService.getAnswer(id);
+		  
+	        Answer answer = this.answerService.getAnswer(id);
+	        
+	        if (!"admin".equals(username)) {
 	        SiteUser siteUser = this.userService.getUser(principal.getName());
 	        this.answerService.vote(answer, siteUser);
-	        return String.format("redirect:/q/detail/%s", answer.getQuestion().getId());
-		  }else
-			  return "redirect:/q/list";
-		 
+	        }
 	        
-	       
-	      
-	       
-	      
-	        
+	        return String.format("redirect:/question/detail/%s#answer_%s", 
+	                answer.getQuestion().getId(), answer.getId());
 	    }
 }
