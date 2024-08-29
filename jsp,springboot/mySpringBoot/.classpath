@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="project00/src/main/java"/>
+	<classpathentry kind="src" path="project00/src/test/java"/>
+	<classpathentry kind="src" path="project00 0521페이징완성 admin추천조작방지/src/main/java"/>
+	<classpathentry kind="src" path="project00 0521페이징완성 admin추천조작방지/src/test/java"/>
+	<classpathentry kind="lib" path="project00/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="project00 0521페이징완성 admin추천조작방지/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="project00/bin/main"/>
+</classpath>
